@@ -11,8 +11,6 @@ mov ah,1 ;taking input
 int 21h
 mov bh,al
 
-
-
 mov ah,2 ;newline
 mov dl,10
 int 21h
