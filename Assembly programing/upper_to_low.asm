@@ -1,7 +1,7 @@
 .model small
 .stack 100h
 .data
-a db 'upper $'
+a db 'upper $' 
 b db 'lower $'
 .code
 main proc
